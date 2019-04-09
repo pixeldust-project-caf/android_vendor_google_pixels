@@ -102,7 +102,6 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/marlin/vendor/bin/hw/android.hardware.media.omx@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.omx@1.0-service:google \
     vendor/google_devices/marlin/vendor/bin/hw/android.hardware.memtrack@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.memtrack@1.0-service:google \
     vendor/google_devices/marlin/vendor/bin/hw/android.hardware.nfc@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc@1.1-service:google \
-    vendor/google_devices/marlin/vendor/bin/hw/android.hardware.power@1.1-service.marlin:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.power@1.1-service.marlin:google \
     vendor/google_devices/marlin/vendor/bin/hw/android.hardware.sensors@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@1.0-service:google \
     vendor/google_devices/marlin/vendor/bin/hw/android.hardware.usb@1.1-service.marlin:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.1-service.marlin:google \
     vendor/google_devices/marlin/vendor/bin/hw/android.hardware.vibrator@1.0-service.marlin:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.vibrator@1.0-service.marlin:google \
@@ -219,7 +218,6 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/marlin/vendor/etc/init/android.hardware.media.omx@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.omx@1.0-service.rc:google \
     vendor/google_devices/marlin/vendor/etc/init/android.hardware.memtrack@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.memtrack@1.0-service.rc:google \
     vendor/google_devices/marlin/vendor/etc/init/android.hardware.nfc@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.1-service.rc:google \
-    vendor/google_devices/marlin/vendor/etc/init/android.hardware.power@1.1-service.marlin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.power@1.1-service.marlin.rc:google \
     vendor/google_devices/marlin/vendor/etc/init/android.hardware.sensors@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@1.0-service.rc:google \
     vendor/google_devices/marlin/vendor/etc/init/android.hardware.usb@1.1-service.marlin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.1-service.marlin.rc:google \
     vendor/google_devices/marlin/vendor/etc/init/android.hardware.vibrator@1.0-service.marlin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.vibrator@1.0-service.marlin.rc:google \
