@@ -127,7 +127,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/sailfish/proprietary/vendor/bin/nanohub_slpi:$(TARGET_COPY_OUT_VENDOR)/bin/nanohub_slpi \
     vendor/google/sailfish/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
     vendor/google/sailfish/proprietary/vendor/bin/nl_listener:$(TARGET_COPY_OUT_VENDOR)/bin/nl_listener \
-    vendor/google/sailfish/proprietary/vendor/bin/perfd:$(TARGET_COPY_OUT_VENDOR)/bin/perfd \
     vendor/google/sailfish/proprietary/vendor/bin/pm-proxy:$(TARGET_COPY_OUT_VENDOR)/bin/pm-proxy \
     vendor/google/sailfish/proprietary/vendor/bin/pm-service:$(TARGET_COPY_OUT_VENDOR)/bin/pm-service \
     vendor/google/sailfish/proprietary/vendor/bin/port-bridge:$(TARGET_COPY_OUT_VENDOR)/bin/port-bridge \
