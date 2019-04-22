@@ -35,8 +35,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.storage_manager.enabled=true \
     ro.boot.vendor.overlay.theme=com.google.android.theme.pixel
 
-PRODUCT_PACKAGE_OVERLAYS += vendor/google_devices/marlin/overlay
-
 # Prebuilt APKs/JARs from 'vendor/app'
 PRODUCT_PACKAGES += \
     atfwd \
@@ -77,6 +75,8 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt APKs/JARs from 'proprietary/framework'
 PRODUCT_PACKAGES += \
+    LowPowerMonitorDeviceInterface \
+    LowPowerMonitorDeviceStub \
     PowerAnomalyDataModemInterface \
     PowerAnomalyStub \
     qcrilhook \
@@ -95,7 +95,6 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleWCD9335 \
     HotwordEnrollmentTGoogleWCD9335 \
     HotwordEnrollmentXGoogleWCD9335 \
-    LLKAgent \
     MyVerizonServices \
     OBDM_Permissions \
     obdm_stub \
@@ -110,8 +109,8 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt APKs libs symlinks from 'proprietary/priv-app'
 PRODUCT_PACKAGES += \
-    libdmjavaplugin_32.so \
-    libdmengine_32.so
+    libdmengine_32.so \
+    libdmjavaplugin_32.so
 
 # Standalone symbolic links
 PRODUCT_PACKAGES += \
