@@ -70,8 +70,8 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt APKs libs symlinks from 'proprietary/app'
 PRODUCT_PACKAGES += \
-    libimsmedia_jni_64.so \
-    libimscamera_jni_64.so
+    libimscamera_jni_64.so \
+    libimsmedia_jni_64.so
 
 # Prebuilt APKs/JARs from 'proprietary/framework'
 PRODUCT_PACKAGES += \
